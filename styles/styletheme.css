@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+
+/* Обнуляем отступы и поля по умолчанию */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Задаём фон и цвета текста */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif
+}
+
+
+
+header {
+  background-color: #007bff;
+  color: #fff;
+ 
+}
+
+/* Логотип */
+.logo {
+  float: left;
+  padding-top: 14px;
+  padding-left: 1.5vw;
+  width: 50px;
+  height: auto;
+  padding-right: 2vw;
+}
+
+/* Навигация */
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 0;
+justify-content: space-evenly; 
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+}
+
+
+
+
+h1 {
+    font-size:36px;
+    padding: 2vw+5px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 2;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 2vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    max-width: 700px;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    color: rgb(0, 48, 151);
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+section ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+
+
+.p {
+    float: left;
+    padding-left: 3vw;
+    font-size: 28px;    /* Размер шрифта */
+    line-height: 1.5;   /* Межстрочный интервал */
+    color: #414141;        /* Цвет текста */
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 1vw;
+    z-index: 3;
+    padding-right: 2vw;
+   
+}
+
+footer p {
+  text-align: center;  /* Центрирование текста */
+  font-size: 27px;    /* Размер шрифта */
+  line-height: 1.5;   /* Межстрочный интервал */
+  color: #272727;        /* Цвет текста */
+  max-width: 60vw;   /* Максимальная ширина абзаца */
+  margin: 0 auto;     /* Горизонтальное выравнивание по центру */
+  font-family: 'Raleway', sans-serif; 
+  padding-bottom: 1vw;
+  z-index: 3;
+}
+
+
+.topic-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.topic-button {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-button img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили при наведении на кнопку */
+.topic-button:hover {
+    color: #007bff; /* Измените на свой цвет при наведении */
+}
+
+/* Дополнительные стили, если требуется */
+
+ footer {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    top: 100px
+ } 
+
+img {
+    width: 20vw;
+    padding-top: 2vw;
+    padding-bottom: 0.5vw;
+    padding: 20px 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img1dr{
+  width: 230px;
+  height: auto;
+  
+}
+
+.img2dr{
+  width: 700px;
+  height: auto;
+}
+
+.img4dr {
+  width: 600px;
+  height: auto;
+  
+}
+
+.img5dr {
+  width: 60%;
+  height: auto;
+}
+
+.img7dr {
+  width: 700px;
+  height: auto;
+}
+.img9dr {
+  width: 800px;
+  height: auto;
+}
+.img10pr {
+  width: 700px;
+  height: auto;
+}
+
+.img11pr {
+  width: 250px;
+  height: auto;
+}
+
+.img13pr {
+  width: 300px;
+  height: auto;
+}
+
+.img15pr {
+  width: 500px;
+  height: auto;
+}
+
+.img16pr {
+  width: 300px;
+  height: auto;
+}
+
+.img17pr {
+  width: 300px;
+  height: auto;
+}
+
+.img18pr {
+  width: 450px;
+  height: auto;
+}
+
+.img3fu {
+  width: 370px;
+  height: auto;
+}
+.img4fu {
+  width: 360px;
+  height: auto;
+}
+.img5fu {
+  width: 370px;
+  height: auto;
+}
+.img6fu {
+  width: 330px;
+  height: auto;
+}
+.img7fu {
+  width: 450px;
+  height: auto;
+}
+.img8fu {
+  width: 450px;
+  height: auto;
+}
+.img9fu {
+  width: 850px;
+  height: auto;
+}
+
+.img10fu {
+  width: 550px;
+  height: auto;
+}
+.img11fu {
+  width: 550px;
+  height: auto;
+}
+.img12fu {
+  width: 420px;
+  height: auto;
+}
+.img13fu {
+  width: 420px;
+  height: auto;
+}
+.img14fu {
+  width: 420px;
+  height: auto;
+}
+.img15fu {
+  width: 420px;
+  height: auto;
+}
+
+
+
+a span {
+    text-align: center;
+}
+
+header nav ul li a:hover{
+   color: rgb(214, 214, 214);
+
+  }
+
+  @media (max-width: 790px) {
+    nav ul li {
+        margin-right: 10px;
+        font-size: 17px;
+    }
+}
+
+  
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Это позволяет контенту занимать доступное пространство между хедером и футтером */
+  }
+  
+
+ 
+  
+  @keyframes stripes {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 0;
+    }
+  }
+
+
+  .par {
+    position: absolute;
+    inset: -5vw;
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(var(--move-x)) rotateY(var(--move-y));
+    z-index: 0;
+    filter: blur(10px)
+
+  }
+
+
+ 
+
+
+
+
+
+
+  .btn-up {
+    /* фиксированное позиционирование */
+    position: fixed;
+    transition: 0.4s;
+
+    /* цвет фона */
+    background-color: #522da831;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+  
+    /* расстояние от правого края окна браузера */
+    right: 30px;
+    /* расстояние от нижнего края окна браузера */
+    bottom: 30px;
+    /* скругление верхнего левого угла */
+    border-top-left-radius: 30px;
+    /* скругление верхнего правого угла */
+    border-top-right-radius: 30px;
+    /* скругление верхнего левого угла */
+    border-bottom-left-radius: 30px;
+    /* скругление верхнего правого угла */
+    border-bottom-right-radius: 30px;
+    /* вид курсора */
+    cursor: pointer;
+    /* отображение элемента как flex */
+    display: flex;
+    /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+    align-items: center;
+    /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+    justify-content: center;
+    /* ширина элемента */
+    width: 110px;
+    /* высота элемента */
+    height: 60px;
+    z-index: 999;
+    
+  }
+  
+  
+  
+  .btn-up_hide {
+    display: none;
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      transition: 0.4s;
+      background-color: #512da8; /* цвет заднего фона при наведении */
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      color:#ffffff
+    }
+  }
+
+.img1fu {
+  width: 500px;
+  height:auto;
+}
+
+.img2fu {
+  width: 800px;
+  height: auto;
+}
+
+.img1r {
+  width: 300px;
+  height: auto;
+}
+
+.img2r {
+  width: 300px;
+  height: auto;
+}
+
+.img3r {
+  width: 430px;
+  height: auto;
+}
+
+.img6r {
+  width: 300px;
+  height: auto;
+}
+
+.img7r {
+  width: 340px;
+  height: auto;
+}
+
+.img9r {
+  width: 700px;
+  height: auto;
+}
+
+
+
+.img11r {
+  width: 700px;
+  height: auto;
+}
+
+.img12r {
+  width: 700px;
+  height: auto;
+}
+
+.img13r {
+  width: 700px;
+  height: auto;
+}
+
+.img1for {
+  width: 700px;
+  height: auto;
+}
+
+.img2for {
+  width: 700px;
+  height: auto;
+}
+
+.wrapper1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+.wrapper0 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
